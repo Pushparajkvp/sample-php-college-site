@@ -1,0 +1,53 @@
+.bodyClass{
+    background-image:linear-gradient(to bottom,#000000,#ffffff);
+    font-size:8px;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html{
+    height:100%;
+}
+.wrapperClass{
+    background-image:linear-gradient(to bottom,#008040,#ffffff);
+    padding:20px 50px 0px 50px;
+    border-style:double;
+    right: 50%;
+    font-size:2em;
+    bottom: 50%;
+    position:absolute;
+    transform: translate(50%,50%);
+}
+.headerClass h1{
+    font-family:cursive;
+    color:black;
+    margin-top: 0px;
+}
+.formClass p{
+    font-family:cursive;
+    font-size:1.5em; 
+}
+.textClass{
+    width:200px;
+}
+.buttonClass{
+    background-color: #4CAF50;
+    border-radius:50px;
+    width:200px;
+    margin:20px 0px 0px 0px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.buttonClass:hover{
+    background-color: #008040;
+    cursor:pointer;
+}
+.footerClass h1{
+    float:right;
+    font-size:0.8em;
+}
